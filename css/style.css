@@ -1,0 +1,84 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(8, 8, 8);
+}
+/* label a.direita {
+    position: absolute;
+    font-size: 60px;
+    z-index: 2;
+    top: 150px;
+    left: 5%;
+} */
+button.slick-prev {
+    font-size: 0px;
+    border: none;
+    width: 60px;
+    height: 76px;
+    z-index: 3;
+    background-color: transparent;
+    background-image: url("../img/esquerda.png");
+    position: absolute;
+    top: 35%;
+    left: 5%;
+}
+button.slick-next {
+    font-size: 0px;
+    border: none;
+    width: 60px;
+    height: 76px;
+    z-index: 9;
+    background-color: transparent;
+    background-image: url("../img/direita.png");
+    position: absolute;
+    top: 35%;
+    right: 7%;
+}
+.slick-initialized {
+    overflow: hidden;
+}
+.slick-dots li button {
+    display: none;
+    font-size: 0px;
+    border: 4px solid #ffffff;
+    width: 22px;
+    height: 22px;
+    background: transparent;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.slick-dots {
+    display: none;
+    margin: 0 auto;
+    width: 50%;
+    position: absolute;
+    left: 643.5px;
+    top: 466px;
+}
+/* li.slick-active button {
+    background:#008080;
+}
+.slick-dots li {
+    padding-left: 10px;
+    display: inline-block;
+}
+
+@media (max-width: 952px) {
+    .slick-dots {
+        width: 50%;
+        left: 443.5px;
+        top: 310px;
+    }
+}
+@media (max-width: 858px) {
+    .slick-dots {
+        width: 50%;
+        left: 383.5px;
+        top: 270px;
+    }
+} */
